@@ -192,6 +192,19 @@ button.close {
 .image-map-block img {
     width: 100%;
 }
+.company-about-text {
+    margin-bottom: 50px;
+}
+.modal-title {
+    position: relative;
+}
+.modal-title img {
+    float: left;
+    margin-right: 15px;
+}
+.modal-body p {
+    text-align: left;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
