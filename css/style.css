@@ -1,15 +1,16 @@
 @font-face {
-    font-family: 'Headline';
-    src: url('../fonts/Co-Headline-Corp.ttf'),
-    url('../fonts/Co-Headline-Corp-Bold.ttf'),
-    url('../fonts/Co-Headline-Corp-Light.ttf');
+    font-family: 'EngraversGothicBT';
+    src: url('../fonts/EngraversGothicBT.ttf');
 }
 body {
-    font-family: 'Headline', sans-serif;
+    font-family: 'EngraversGothicBT';
     color: #333;
     font-size: 16px;
     line-height: 1.62;
     background-image: url("../images/background.png");
+}
+body p {
+    font-family: 'Lato', sans-serif;
 }
 a, button {
     transition: all .3s linear;
@@ -18,4 +19,29 @@ a, button {
 a:focus, a:hover {
     text-decoration: none;
     color: #68251B;
+}
+.navbar-nav a {
+    text-transform: uppercase;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+    color: #002c7a;
+}
+.header-page-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+    }
 }
