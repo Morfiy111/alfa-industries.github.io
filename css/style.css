@@ -231,10 +231,10 @@ button.close {
     color: #32a1ed;
 }
 .red-icon-svg {
-    margin-right: 20px;
+    margin-right: 15px;
 }
 .red-icons-item {
-    width: 30%;
+    width: 32%;
 }
 .red-icon-text-title i {
     margin-left: 7px;
@@ -243,6 +243,9 @@ button.close {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.red-icon-text-title-word span {
+    display: inherit;
 }
 @media (min-width: 768px) {
     .navbar-nav {
