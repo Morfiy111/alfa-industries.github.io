@@ -242,6 +242,7 @@ button.close {
 .red-icons-block {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 @media (min-width: 768px) {
     .navbar-nav {
