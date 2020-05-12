@@ -105,7 +105,6 @@ a:focus, a:hover {
     background-color: transparent;
     border: none;
     color: #002c7a;
-    font-size: 14px;
     font-weight: bold;
     padding: 0;
 }
@@ -204,6 +203,45 @@ button.close {
 }
 .modal-body p {
     text-align: left;
+}
+.image-map-block {
+    margin-bottom: 50px;
+}
+.red-icon-text-caret {
+    color: #cf0707;
+    font-size: 32px;
+    margin-right: 8px;
+}
+.red-icon-text-title-word {
+    font-size: 32px;
+    color: #002c7a;
+    line-height: 1;
+}
+.red-icons-item  {
+    display: flex;
+}
+.red-icon-text {
+    display: flex;
+}
+.red-icon-text-title a {
+    color: #002c7a;
+    font-weight: bold;
+}
+.red-icon-text-title a:hover {
+    color: #32a1ed;
+}
+.red-icon-svg {
+    margin-right: 20px;
+}
+.red-icons-item {
+    width: 30%;
+}
+.red-icon-text-title i {
+    margin-left: 7px;
+}
+.red-icons-block {
+    display: flex;
+    justify-content: space-between;
 }
 @media (min-width: 768px) {
     .navbar-nav {
