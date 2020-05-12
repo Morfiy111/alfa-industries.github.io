@@ -85,7 +85,7 @@ a:focus, a:hover {
 .grey-about-company-item {
     width: 23%;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 .grey-about-company-icon {
     text-align: center;
@@ -118,6 +118,80 @@ a:focus, a:hover {
     bottom: 0;
     width: 100%;
 }
+button.close {
+    position: relative;
+    right: 10px;
+    top: 8px;
+    z-index: 1;
+    font-size: 24px;
+}
+.grey-block-icons {
+    margin-bottom: 50px;
+}
+.services-block-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.services-block-image {
+    width: 48%;
+}
+.services-block-image img {
+    width: 100%;
+}
+.services-block-text {
+    width: 48%;
+    font-size: 18px;
+}
+.blue-main-page-item {
+    text-align: center;
+    width: 26%;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    position: relative;
+}
+.blue-main-page-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.background-image-block {
+    background-image: url("../images/back-service.png");
+    background-size: 100%;
+    padding: 60px 0 30px 0;
+    margin-bottom: 50px;
+}
+.blue-main-page-item-title {
+    color: #fff;
+    font-size: 32px;
+    line-height: 1;
+    padding: 0 17px;
+}
+.blue-main-page-item-link a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.blue-main-page-item-link a:hover {
+    text-decoration: none;
+}
+.blue-main-page-item-link i {
+    margin-left: 7px;
+}
+.blue-main-page-item-link {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.blue-main-page-item-title span {
+    display: inherit;
+}
+.grey-block-bottom {
+    padding: 20px;
+}
+.image-map-block img {
+    width: 100%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -129,6 +203,30 @@ a:focus, a:hover {
     .navbar-nav {
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+    .grey-about-company-title {
+        font-size: 30px;
+    }
+}
+@media (max-width: 991px) {
+    .grey-about-company {
+        flex-wrap: wrap;
+    }
+    .grey-about-company-item {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    .services-block-flex {
+        flex-wrap: wrap;
+    }
+    .services-block-image, .services-block-text {
+        width: 100%;
+    }
+    .services-block-image {
+        margin-bottom: 20px;
+    }
+    .blue-main-page-item {
+        width: 48%;
     }
 }
 @media (max-width: 767px) {
@@ -158,5 +256,16 @@ a:focus, a:hover {
     }
     .header-page-block {
         display: block;
+    }
+}
+@media (max-width: 500px) {
+    .grey-about-company-item {
+        width: 100%;
+    }
+    .blue-main-page-item {
+        width: 100%;
+    }
+    .blue-main-page-item-title {
+        font-size: 30px;
     }
 }
