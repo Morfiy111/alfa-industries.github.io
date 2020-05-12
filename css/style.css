@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Headline';
+    src: url('../fonts/Co-Headline-Corp.ttf'),
+    url('../fonts/Co-Headline-Corp-Bold.ttf'),
+    url('../fonts/Co-Headline-Corp-Light.ttf');
+}
+body {
+    font-family: 'Headline', sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.62;
+    background-image: url("../images/background.png");
+}
+a, button {
+    transition: all .3s linear;
+    color: #e74c3c;
+}
+a:focus, a:hover {
+    text-decoration: none;
+    color: #68251B;
+}
