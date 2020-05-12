@@ -18,7 +18,7 @@ a, button {
 }
 a:focus, a:hover {
     text-decoration: none;
-    color: #68251B;
+    color: #32a1ed;
 }
 .navbar-nav a {
     text-transform: uppercase;
@@ -29,7 +29,6 @@ a:focus, a:hover {
     margin-bottom: 0;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #777;
     color: #002c7a;
 }
 .header-page-block {
@@ -38,10 +37,79 @@ a:focus, a:hover {
     justify-content: space-between;
     padding: 30px 0;
 }
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chevron-background {
+    font-size: 55px;
+    color: #fff;
+}
+.title-page {
+    font-size: 40px;
+    color: #002c7a;
+    margin: 20px 0;
+}
+.owl-carousel {
+    margin-bottom: 40px;
+}
+.company-about-text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
         justify-content: center;
         font-size: 32px;
+    }
+}
+@media (max-width: 1199px) {
+    .navbar-nav {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        margin-right: 0;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #002c7a;
+        position: relative;
+        width: 50px;
+        height: 6px;
+    }
+    .navbar-toggle.active .icon-bar:nth-of-type(1) {
+        top: 14px;
+        transform: rotate(45deg);
+    }
+    .navbar-toggle.active .icon-bar:nth-of-type(2) {
+        background: transparent;
+    }
+    .navbar-toggle.active .icon-bar:nth-of-type(3) {
+        top: -6px;
+        transform: rotate(-45deg);
+    }
+    .header-page-block {
+        display: block;
     }
 }

@@ -9,7 +9,7 @@ owl.owlCarousel({
     loop:true,
     margin:0,
     nav:true,
-    dots:true,
+    dots:false,
     autoplay:true,
     autoplayTimeout:4000,
     smartSpeed: 700,
@@ -21,30 +21,3 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('autoplay.stop.owl')
 })
-
-$(document).ready(function(){
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 50) {
-            $('#button-up').fadeIn();
-        } else {
-            $('#button-up').fadeOut();
-        }
-    });
-    $('#button-up').click(function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 500);
-        return false;
-    });
-});
-
-jQuery(function($) {
-    $(window).scroll(function(){
-        if($(this).scrollTop()>390){
-            $('.red-back-block').addClass('fixed');
-        }
-        else if ($(this).scrollTop()<390){
-            $('.red-back-block').removeClass('fixed');
-        }
-    });
-});
