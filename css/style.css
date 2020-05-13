@@ -63,6 +63,7 @@ a:focus, a:hover {
     font-size: 40px;
     color: #002c7a;
     margin: 20px 0;
+    font-weight: bold;
 }
 .owl-carousel {
     margin-bottom: 40px;
@@ -249,6 +250,7 @@ button.close {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 .red-icon-text-title-word span {
     display: inherit;
@@ -257,6 +259,25 @@ button.close {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+.main-contact-block {
+    background-image: url("../images/main-contact.png");
+    background-size: 100%;
+    padding: 60px 0;
+}
+.title-page-white {
+    color: #fff;
+}
+.city-contact-item {
+    width: 24%;
+    border: 3px solid #32a1ed;
+}
+.city-contact-item img {
+    width: 100%;
+}
+.city-flex-contact {
+    display: flex;
+    justify-content: space-between;
 }
 @media (min-width: 768px) {
     .navbar-nav {
