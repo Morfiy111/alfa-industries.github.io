@@ -270,14 +270,64 @@ button.close {
 }
 .city-contact-item {
     width: 24%;
-    border: 3px solid #32a1ed;
 }
 .city-contact-item img {
     width: 100%;
+    border: 3px solid #32a1ed;
 }
 .city-flex-contact {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
+}
+.inputs-footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.inputs-footer-title, .input-footer-item {
+    width: 24%;
+}
+.inputs-footer-title .grey-about-company-title span{
+    color: #fff;
+} 
+.input-footer-item input {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 12px;
+    border: 2px solid #cf0707;
+}
+.footer-send-block {
+    text-align: right;
+    margin-bottom: 30px;
+}
+.footer-send-block button {
+    color: #fff;
+    background-color: #32a1ed;
+    border: 3px solid #32a1ed;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    padding: 3px 40px;
+}
+.footer-send-block button:hover {
+    background-color: transparent;
+}
+.city-contact-title {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.copyright-footer-link a {
+    text-decoration: underline;
+    color: #fff;
+}
+.copyright-footer-link a:hover {
+    text-decoration: none;
+}
+.copyright-footer {
+    color: #fff;
+    text-align: center;
 }
 @media (min-width: 768px) {
     .navbar-nav {
