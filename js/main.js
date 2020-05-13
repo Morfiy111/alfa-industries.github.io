@@ -21,3 +21,11 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('autoplay.stop.owl')
 })
+$(document).ready(function(){
+    $(".navbar-link").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
