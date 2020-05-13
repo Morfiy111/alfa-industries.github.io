@@ -275,6 +275,10 @@ button.close {
 .city-contact-item img {
     width: 100%;
     border: 3px solid #32a1ed;
+    transition: all .3s linear;
+}
+.city-contact-item img:hover {
+    transform: rotate(3deg);
 }
 .city-flex-contact {
     display: flex;
