@@ -68,9 +68,10 @@ a:focus, a:hover {
 .owl-carousel {
     margin-bottom: 40px;
 }
-.company-about-text p {
+.company-about-text p, .company-about-text ul {
     margin-bottom: 20px;
     font-size: 18px;
+    font-family: 'Lato', sans-serif;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #32a1ed;
@@ -328,6 +329,9 @@ button.close {
 .copyright-footer {
     color: #fff;
     text-align: center;
+}
+.main-banner {
+    margin: 40px 0;
 }
 @media (min-width: 768px) {
     .navbar-nav {
