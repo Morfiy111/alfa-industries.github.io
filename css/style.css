@@ -333,6 +333,9 @@ button.close {
 .main-banner {
     margin: 40px 0;
 }
+.main-banner img {
+    width: 100%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
