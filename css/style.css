@@ -60,7 +60,7 @@ a:focus, a:hover {
     color: #fff;
 }
 .title-page {
-    font-size: 40px;
+    font-size: 32px;
     color: #002c7a;
     margin: 20px 0;
     font-weight: bold;
@@ -70,7 +70,7 @@ a:focus, a:hover {
 }
 .company-about-text p, .company-about-text ul {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -97,7 +97,7 @@ a:focus, a:hover {
     padding: 50px 0;
 }
 .grey-about-company-title {
-    font-size: 32px;
+    font-size: 26px;
     color: #002c7a;
     font-weight: bold;
 }
@@ -143,7 +143,7 @@ button.close {
 }
 .services-block-text {
     width: 48%;
-    font-size: 18px;
+    font-size: 16px;
 }
 .blue-main-page-item {
     text-align: center;
@@ -165,7 +165,7 @@ button.close {
 }
 .blue-main-page-item-title {
     color: #fff;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 1;
     padding: 0 17px;
     font-weight: bold;
@@ -217,7 +217,7 @@ button.close {
     margin-right: 8px;
 }
 .red-icon-text-title-word {
-    font-size: 32px;
+    font-size: 26px;
     color: #002c7a;
     line-height: 1;
     font-weight: bold;
@@ -344,7 +344,8 @@ button.close {
     .navbar-nav {
         display: flex;
         justify-content: center;
-        font-size: 32px;
+        font-size: 22px;
+        font-weight: bold;
     }
 }
 @media (max-width: 1199px) {
