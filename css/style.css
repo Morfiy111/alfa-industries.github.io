@@ -340,6 +340,9 @@ button.close {
 .copyright-footer p {
     text-align: center;
 }
+.grey-about-company-icon img {
+    width: 108.5px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
