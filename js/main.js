@@ -13,7 +13,7 @@ owl.owlCarousel({
     nav:true,
     dots:false,
     autoplay:true,
-    autoplayTimeout:4000,
+    autoplayTimeout:5000,
     smartSpeed: 700,
     autoplayHoverPause:true
 });

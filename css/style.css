@@ -11,6 +11,7 @@ body {
 }
 body p {
     font-family: 'Lato', sans-serif;
+    text-align: justify;
 }
 a, button {
     transition: all .3s linear;
@@ -206,7 +207,7 @@ button.close {
     margin-right: 15px;
 }
 .modal-body p {
-    text-align: left;
+    text-align: justify;
 }
 .image-map-block {
     margin-bottom: 50px;
@@ -276,9 +277,6 @@ button.close {
     width: 100%;
     border: 3px solid #32a1ed;
     transition: all .3s linear;
-}
-.city-contact-item img:hover {
-    transform: rotate(3deg);
 }
 .city-flex-contact {
     display: flex;
